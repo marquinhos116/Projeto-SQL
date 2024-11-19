@@ -7,6 +7,10 @@
 ano year default '2016'
  ) default charset = utf8mb3;
  
+ create table if not exists ComitGit(
+ name varchar (20) not null unique,
+ branch text
+ );
  
  
  
